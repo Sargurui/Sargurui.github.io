@@ -55,13 +55,13 @@ document.addEventListener('DOMContentLoaded', function() {
         setTimeout(showSlides, 4000); // Change image every 3 seconds
     }
 
-    document.querySelector('.prev').addEventListener('click', function() {
-        plusSlides(-1);
-    });
+    // document.querySelector('.prev').addEventListener('click', function() {
+    //     plusSlides(-1);
+    // });
 
-    document.querySelector('.next').addEventListener('click', function() {
-        plusSlides(1);
-    });
+    // document.querySelector('.next').addEventListener('click', function() {
+    //     plusSlides(1);
+    // });
 
     function plusSlides(n) {
         showSlides(slideIndex += n);
